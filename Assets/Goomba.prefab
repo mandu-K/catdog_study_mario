@@ -147,14 +147,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1.5
-  startDirection: -1
   leftSprite: {fileID: -437029559, guid: c8602879e126d9146b376d8c0b330487, type: 3}
   rightSprite: {fileID: -1690626993, guid: c8602879e126d9146b376d8c0b330487, type: 3}
   squishSprite: {fileID: 1159223145, guid: c8602879e126d9146b376d8c0b330487, type: 3}
   fallDeathY: -10
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 64
-  edgeCheckDistance: 0.5
-  edgeCheckRayLength: 0.3
-  playerDetectionRange: 5
+  activationRange: 12
